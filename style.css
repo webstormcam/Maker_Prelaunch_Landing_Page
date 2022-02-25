@@ -3,5 +3,25 @@
 }
 
 body{
-   font-family: 'Manrope', sans-serif;;
+   font-family: 'Manrope', sans-serif;
+   display: flex;
+   flex-direction: column;
+   background-color: #080C20;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-section{
+    margin-top: 2rem;
+}
+
+.background-words{
+    background-image: url('imgs/illustration-hero-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
