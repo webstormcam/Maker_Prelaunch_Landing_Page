@@ -79,6 +79,10 @@ h1{
     
 }
 
+.large-squiggle{
+    display: none;
+}
+
 
 @media screen and (min-width:768px){
     .logo-section{
@@ -117,6 +121,7 @@ h1{
         flex-direction: row;
         justify-content: space-between;
         position: relative;
+        z-index: 500;
         
        
     }
@@ -151,6 +156,31 @@ h1{
     .logo-section{
         margin-left: 2rem;
   
+    }
+
+    h1{
+        font-size: 48px;
+        line-height: 56px;
+        z-index: 500;
+    }
+
+    .words-icon{
+        background-image: none;
+        z-index: 20;
+
+    }
+
+    .words-icon p{
+        padding: 0rem 5rem;
+        z-index: 500;
+    }
+
+    .large-squiggle{
+        z-index: 0;
+        display: block;
+        position: absolute;
+        top: -6rem;
+        left: 5rem;
     }
 
 }
