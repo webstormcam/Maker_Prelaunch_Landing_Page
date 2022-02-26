@@ -38,6 +38,7 @@ header{
 
 .words-icon{
     text-align: center;
+    width: 85%;
 }
 
 .words-icon p{
@@ -51,8 +52,14 @@ h1{
     font-weight: bold;
     font-size: 32px;
     line-height: 40px;
+    margin-bottom: 1.3rem;
+   padding: 0rem 2.3rem;
 }
 
 .love{
     color: #3EE9E5;
+}
+
+.scroll{
+    margin-top: 2rem;
 }
