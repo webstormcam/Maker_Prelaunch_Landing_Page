@@ -82,8 +82,9 @@ h1{
 
 @media screen and (min-width:768px){
     .logo-section{
-        align-self: flex-start;
         margin-left: 2rem;
+    max-width: 1110px;
+    width: 100%;
     }
 
     .words-icon{
