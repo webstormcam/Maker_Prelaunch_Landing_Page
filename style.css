@@ -82,7 +82,7 @@ h1{
 
 @media screen and (min-width:768px){
     .logo-section{
-        margin-left: 2rem;
+        margin-left: 4rem;
     max-width: 1110px;
     width: 100%;
     }
@@ -130,4 +130,27 @@ h1{
     }
 
     
+}
+
+@media screen and (min-width:1440px){
+
+    .large-img img{
+        width: 25rem;
+    }
+
+    .large-left-hero{
+       
+        right: 23rem;
+    }
+
+    .large-right-hero{
+      
+        left: 24rem;
+    }
+
+    .logo-section{
+        margin-left: 2rem;
+  
+    }
+
 }
