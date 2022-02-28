@@ -191,6 +191,19 @@ h2{
         padding: 0rem 4rem;
     }
 
+    .fact{
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .words{
+        text-align: left;
+        width: 50%;
+       
+    }
+
+  
+
     
 }
 
