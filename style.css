@@ -197,13 +197,23 @@ h2{
         margin-top: 2rem;
     }
 
+    .odd .words{
+        position: relative;
+        left: 4rem;
+    }
+
+    .even .words{
+        position: relative;
+        left: 4rem;
+    }
+
     .even{
-        justify-self: flex-start;
+        justify-content: flex-start;
     }
     
     .words{
         text-align: left;
-        width: 50%;
+        width: 65%;
        
     }
 
