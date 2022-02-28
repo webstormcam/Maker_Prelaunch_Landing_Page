@@ -194,6 +194,11 @@ h2{
     .fact{
         flex-direction: row;
         justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .even{
+        justify-self: flex-start;
     }
     
     .words{
@@ -202,7 +207,19 @@ h2{
        
     }
 
-  
+    .section1{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+  .section1-items{
+      width: 100%;
+      max-width: 573px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
     
 }
