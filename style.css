@@ -289,6 +289,21 @@ h2{
     .fact{
         flex-direction: column;
         margin-top: 4rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .words{
+        width: 85%;
+        align-items: flex-start;
+    }
+
+    .odd .words{
+        left: 0rem;
+    }
+
+    .even .words{
+        left: 0rem;
     }
 
    
