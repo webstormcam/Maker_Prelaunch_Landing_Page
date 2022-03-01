@@ -280,6 +280,17 @@ h2{
         left: 5rem;
     }
 
+    .section1-items{
+        flex-direction: row;
+        max-width: 1110px;
+        justify-content: space-between;
+    }
+
+    .fact{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
    
 
 }
