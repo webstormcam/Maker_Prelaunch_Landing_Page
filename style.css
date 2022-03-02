@@ -318,6 +318,11 @@ h2{
         padding: 2.5rem 2.1rem;
     }
 
+    .even{
+        position: relative;
+        top: 2.5rem;
+    }
+
    
 
 }
