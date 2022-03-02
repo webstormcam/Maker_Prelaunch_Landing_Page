@@ -234,8 +234,10 @@ h2{
     
 }
 
-@media screen and (min-width:1440px){
-
+@media screen and (min-width:1300px){
+main{
+    margin-top: 9rem;
+}
     .large-img img{
         width: 25rem;
     }
