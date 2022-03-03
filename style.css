@@ -142,12 +142,31 @@ h3{
 
 .section2{
     margin-top: 8rem;
+    width: 100%;
+}
+
+.section2-header{
+    width: 85%;
+}
+
+.section2-header p{
+color: #777F98;
+line-height: 25px;
+text-align: center;
+}
+
+.section2-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2{
     color: #fff;
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 
