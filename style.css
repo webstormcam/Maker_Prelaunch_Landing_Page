@@ -359,10 +359,20 @@ main{
         top: 2.5rem;
     }
 
-    /* .right{
-        left: 2.5rem;
-        position: relative;
-    } */
+    .section2{
+        margin-top: 15rem;
+    }
+
+    
+
+    .section2-header{
+        width: 100%;
+        max-width: 540px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
 
    
 
