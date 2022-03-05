@@ -208,6 +208,12 @@ h2{
     position: relative;
 }
 
+.cube2{
+    margin-top: 4rem;
+    background-color: #3EE9E5;
+    position: relative;
+}
+
 .facts{
     display: flex;
     flex-direction: column;
@@ -238,6 +244,31 @@ li{
 .free-art{
     position: absolute;
     top: -1.5rem;
+}
+
+p.dark-words{
+    color: #080C20;
+    line-height: 25px;
+}
+
+.dark-h3{
+    color: #080C20;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.twenty-five{
+    color:#080C20 ;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.month{
+    font-size: 15px;
+    font-weight: 300;
 }
 
 
@@ -444,6 +475,21 @@ main{
 
     h2{
         font-size: 32px;
+    }
+
+    .twoCubes{
+        width: 920px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .cube1{
+        padding-bottom: 3rem;
+    }
+
+    .cube2{
+        margin-top: 0rem;
     }
 
    
