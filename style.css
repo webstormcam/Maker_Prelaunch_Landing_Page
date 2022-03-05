@@ -205,12 +205,39 @@ h2{
 
 .cube1{
     background-color: #093F68;
+    position: relative;
 }
 
 .facts{
     display: flex;
     flex-direction: column;
    
+}
+
+li{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+
+.check{
+    height: 0.6rem;
+    margin-right: 1rem;
+}
+
+.items p{
+    color: #fff;
+}
+
+.free-art{
+    position: absolute;
+    top: -1.5rem;
 }
 
 
@@ -302,6 +329,10 @@ h2{
       display: flex;
       flex-direction: column;
       align-items: center;
+  }
+
+  .cube{
+      max-width: 445px;
   }
 
  
