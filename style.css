@@ -425,6 +425,33 @@ padding: 0rem 4rem;
       max-width: 445px;
   }
 
+  #myForm{
+      width: 476px;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+  }
+
+  #email{
+      width: 70%;
+  }
+
+  #notified{
+      width: 25%;
+  }
+
+  footer{
+     
+    background-size: cover;
+
+}
+
+#error{
+    position: absolute;
+    top: 3rem;
+    left: 0.8rem;
+}
+
  
 
     
@@ -550,11 +577,7 @@ main{
     .cube2{
         margin-top: 0rem;
     }
-    footer{
-     
-        background-size: cover;
-    
-    }
+   
 
    
 
