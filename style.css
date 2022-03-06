@@ -278,16 +278,56 @@ p.dark-words{
 
 footer{
     margin-top: 8rem;
+    background-image: url('imgs/bg-footer-squiggle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    padding-bottom: 2rem;
+}
+
+.footer-top{
+padding: 0rem 4rem;
+}
+
+.footeritems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 #myForm{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 327px;
+    
 }
 #error{
     color: #FF2965;
     font-size: 12px;
+}
+
+#email{
+    color: #fff;
+    background-color: #093F68;
+    border: 1px solid #093F68 ;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    
+}
+
+#notified{
+    background-color: #3EE9E5;
+    color: #093F68;
+    font-weight: bold;
+    border: 1px solid #093F68 ;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 
@@ -509,6 +549,11 @@ main{
 
     .cube2{
         margin-top: 0rem;
+    }
+    footer{
+     
+        background-size: cover;
+    
     }
 
    
